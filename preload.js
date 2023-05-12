@@ -12,6 +12,13 @@ const api_name = "chat_com"; // 接口名称
 // 请求地址
 const url = `https://api.aigcaas.cn/product/${application_name}/api/${api_name}`;
 
+/**
+* 请求GPT模型生成中文JSDoc的异步函数
+* @async
+* @function requestGPT
+* @param {string} functionCode - 待生成中文JSDoc的代码
+* @returns {Promise<Object>} 返回Promise对象，包含GPT模型生成的结果
+*/
 async function requestGPT(functionCode) {
   // 构建请求头
   const timestamp = Math.round(new Date() / 1000);
