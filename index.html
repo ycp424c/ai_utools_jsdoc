@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    </head>
     <body style="display: flex; flex-direction: column; justify-content: center;">
         <textarea style="width: 400px;height: 200px;" id="output"></textarea>
-        <button>Generate</button>
-        <div style="width: 400px;height: 200px;" id="output_div"></div>
-        <button>Copy result</button>
+        <button onclick="pageHandler.handleGenerate()">Generate</button>
+        <div style="width: 400px;height: 200px; overflow-y: scroll;" id="output_div"></div>
+        <button onclick="pageHandler.copyResult()">Copy result</button>
     </body>
     <script src="./client.js"></script>
 </html>

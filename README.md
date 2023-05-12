@@ -27,7 +27,7 @@ module.exports = {
 };
 ```
 1. 打开 UTools
-1. [快速上手 | uTools]https://www.u.tools/docs/developer/welcome.html#%E5%BC%80%E5%8F%91%E8%80%85%E4%B8%AD%E5%BF%83
+1. [快速上手 | uTools](https://www.u.tools/docs/developer/welcome.html#%E5%BC%80%E5%8F%91%E8%80%85%E4%B8%AD%E5%BF%83)
 
 ## 使用方法
 
@@ -40,6 +40,7 @@ module.exports = {
 - 该插件需要连接互联网才能使用 ChatGPT API，因此需要确保你的设备已连接互联网
 - 该插件仅支持生成标准 JSDoc 注释，不支持其他类型的注释
 - 该插件使用的 ChatGPT API 是一个商业服务，需要在 AIGCaaS 平台上注册并获取 API 密钥才能使用
+- 对箭头函数的识别不是很准确，不过箭头函数一般也不需要写jsDoc，先这样吧\[懒\]
 
 ## 开发者信息
 
