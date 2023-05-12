@@ -1,6 +1,6 @@
 # UTools 插件：ChatGPT API JSDoc Generator
 
-[![GitHub license](https://img.shields.io/github/license/ycp424c/ai_utools_jsdoc.svg)](https://github.com/ycp424c/ai_utools_jsdoc/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/ycp424c/ai_utools_jsdoc.svg)](https://github.com/ycp424c/ai_utools_jsdoc/blob/main/LICENSE)
 [![GitHub release](https://img.shields.io/github/release/ycp424c/ai_utools_jsdoc.svg)](https://github.com/ycp424c/ai_utools_jsdoc/releases/)
 [![GitHub issues](https://img.shields.io/github/issues/ycp424c/ai_utools_jsdoc.svg)](https://github.com/ycp424c/ai_utools_jsdoc/issues)
 [![ChatGPT API version](https://img.shields.io/badge/ChatGPT%20API-v3.5-blue)](https://openai.com/api/chat/)
